@@ -1,3 +1,4 @@
+import 'package:firstproject/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +12,7 @@ const PractiseApp({ Key? key }) : super(key: key);
   Widget build(BuildContext context){
   return const MaterialApp(
     title: "First App",
-    home: HomePage(),
+    home: Homepage2(),
     debugShowCheckedModeBanner: false,
   );
 
