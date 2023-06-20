@@ -29,28 +29,25 @@ const HomePage({ Key? key }) : super(key: key);
       title: const Text("Hello World!"),
     
     ),
-    backgroundColor: Colors.amber,
-      body: Container(
-      child:Column( crossAxisAlignment: CrossAxisAlignment.center, children: [
+      body: Column( mainAxisAlignment: MainAxisAlignment.start, children: [
         Container(
-        width: 100,
-        height: 100,
-        color: Colors.black87,
+        width: 200,
+        height: 200,
+        color: Colors.amber,
         ),
         Container(
 
-        width: 100,
-        height: 100,
+        width: 200,
+        height: 200,
         color: Colors.blue,
         ),
         Container(
-         width: 100,
-        height: 100,
+         width: 200,
+        height: 200,
         color: Colors.blueGrey,
         ),
       ],
 
-      ),
       ),
    floatingActionButton: FloatingActionButton(onPressed: (){
     print("Button clicked");
